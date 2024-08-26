@@ -27,3 +27,27 @@ This is a simple Language Detection web application built using FastAPI. The app
    git clone https://github.com/yourusername/language-detection-app.git
    cd language-detection-app
    ```
+
+2. **Create a Virtual Environment**
+
+   ```bash
+    python3 -m venv venv
+    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Install required dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the application**
+
+   ```bash
+   fastapi dev src/main.py
+   ```
+
+5. **Access API Endpoints**
+
+- You can access the interactive API documentation at http://127.0.0.1:8000/docs.
+
