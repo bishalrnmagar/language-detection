@@ -18,6 +18,11 @@ This is a simple Language Detection web application built using FastAPI. The app
 - FastAPI
 - Uvicorn (ASGI server)
 - Pip (Python package installer)
+- Sklearn
+- numpy
+- pandas
+- Matplotlib
+- Seaborn
 
 ### Steps to Run the App Locally
 
