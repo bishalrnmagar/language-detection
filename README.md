@@ -49,5 +49,38 @@ This is a simple Language Detection web application built using FastAPI. The app
 
 5. **Access API Endpoints**
 
-- You can access the interactive API documentation at http://127.0.0.1:8000/docs.
+You can access the interactive API documentation at http://127.0.0.1:8000/docs.
 
+
+## Usage
+
+### Endpoint: `POST /predict`
+
+This endpoint detects the language of the provided text.
+
+#### Request
+
+- **Method**: POST
+- **URL**: `/predict`
+- **Content-Type**: `application/json`
+
+#### Request Body Example
+
+```json
+{
+  "text": "Hello, how are you?"
+}
+```
+
+#### Response Body Example
+
+```json
+{
+  "text": "Hello, how are you?",
+  "language": "English"
+}
+```
+
+This section will guide users on how to use the language detection endpoint of your FastAPI application.
+
+Thank you.
